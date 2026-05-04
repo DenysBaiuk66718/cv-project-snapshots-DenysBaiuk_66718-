@@ -1,0 +1,13 @@
+{
+  "skills": ["HTML5", "CSS3", "JavaScript", "Git & GitHub", "Podstawy UI/UX"],
+  "projects": [
+    {
+      "title": "Moje CV",
+      "description": "Interaktywna strona wizytówka stworzona z HTML, CSS i JS."
+    },
+    {
+      "title": "Aplikacja To-Do",
+      "description": "Prosta lista zadań pozwalająca na dodawanie i usuwanie elementów."
+    }
+  ]
+}
