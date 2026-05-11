@@ -1,0 +1,106 @@
+
+body {
+  margin: 0;
+  padding: 20px;
+  transition: all 0.3s ease; 
+}
+
+.cv-container {
+  background-color: #ffffff;
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 40px;
+  transition: all 0.3s ease;
+}
+
+.hidden {
+  display: none; 
+}
+
+
+body.green-theme {
+  font-family: "Trebuchet MS", Helvetica, sans-serif; 
+  background-color: #f0f9f0;
+  color: #1a2a1a;
+}
+
+body.green-theme .cv-container {
+  border: 2px solid #27ae60;
+  box-shadow: 12px 12px 0px #d5e8d4; 
+}
+
+body.green-theme .header {
+  border-left: 8px solid #27ae60;
+  text-align: left;
+}
+
+body.green-theme h1 { color: #1e8449; }
+body.green-theme h3 { background-color: #27ae60; color: white; padding: 5px 15px; }
+body.green-theme a { color: #1e8449; }
+
+
+body.red-theme {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fdf2f2;
+  color: #2d3436;
+}
+
+body.red-theme .cv-container {
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(192, 57, 43, 0.15);
+  border-top: 10px solid #e74c3c;
+}
+
+body.red-theme .header {
+  text-align: center;
+}
+
+body.red-theme h1 { color: #c0392b; }
+body.red-theme h3 { 
+  color: #c0392b; 
+  border-bottom: 2px solid #fadbd8; 
+  background: transparent; 
+}
+body.red-theme a { color: #e74c3c; }
+
+.profile-photo {
+    width: 30% ; 
+    height: auto;
+}
+/*zadanie 5(stylizowanie formularza*/
+#contactSection {
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 2px solid #ccc;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input, 
+.form-group textarea {
+    width: 100%;
+    max-width: 400px;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+.error-message {
+    color: red;
+    font-size: 0.85em;
+    display: block;
+    min-height: 1.2em;
+    margin-top: 3px;
+}
+
+.input-error {
+    border: 2px solid red;
+    background-color: #ffe6e6;
+}
